@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "utf-8">
+       <meta http-equiv = "X-UA-Compatible" content = "IE=11">
+       <title>TripRtvelo</title>
+       <meta name = "description" content = "">
+       <meta name = "viewport" content = "width=device-width, initial-scale=1">
+       <!--font awesome cdn-->
+       <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!--fonts-->
+       <link rel = "stylesheet" href = "fonts/fonts.css">
+       <!--normalize css-->
+       <link rel = "stylesheet" href = "css/normalize.css">
+       <!--custom css-->
+       <link rel = "stylesheet" href = "css/utility.css">
+       <link rel = "stylesheet" href = "css/style.css">       
+       <link rel = "stylesheet" href = "css/responsive.css">
+
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "visitrtvelo.html" class = "site-brand">
+                    Visit<span>Rtvelo</span>
+                </a>
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Wellcome To Georgia</h1>
+                    <p>Imo Gza Ure For Love</p>
+                    
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <from class = "flex">
+                        <input type = "text" class = "form-control" placeholder = "Destination name">
+                        <input type = "date" class = "form-control" placeholder = "date">
+                        <input type = "number" class = "form-control" placeholder = "price ($)">
+                        <input type = "submit" class = "btn" value = "Search">
+                    </from>
+                </div>
+            </div>
+        </header>
+
+        <!--featured section-->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                <span class = "sm-title">know about some places before you travel</span>
+                <h2 class = "lg-title">featured places</h2>
+                </div>
+            </div>
+            <div class = "featured-row">
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-batumi-beach.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Batumi Beach
+                        </span>
+                        <div>
+                            <p class = "text"> For crazy time go to Gan Da Gana!!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-racha.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Racha
+                        </span>
+                        <div>
+                            <p class = "text"> For colorful feelings!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-racha-autumnleavs.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Racha Racha
+                        </span>
+                        <div>
+                            <p class = "text"> Don't forget khvan chka ra!!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-racha-shaori-lake.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Shaori lake Racha
+                        <div>
+                            <p class = "text"> You will fly </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-svaneti-besafe.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Be safe! 
+                        </span>
+                        <div>
+                            <p class = "text"> I love Kub Da Ri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-svaneti.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Svanetis MZE
+                        </span>
+                        <div>
+                            <p class = "text">Take it easy!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-qoruldi-svaneti.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            ups!
+                        </span>
+                        <div>
+                            <p class = "text">Parle vu Svanuri?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-batumi-night.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            Batumi Night!
+                        </span>
+                        <div>
+                            <p class="text">Hot!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "featured-item my-2 shadow">
+                    <mg src = "images/featured-item my-2 shadow">
+                    <img src = "images/featured-batumi-clubs.jpg" alt = "featured place">
+                    <div class = "featured-item-content">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                            BtmDns
+                        </span>
+                        <div>
+                            <p class = "text"> NoSleep</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--services section-->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+            </div>
+
+            <div class = "services-row">
+                <div class = "services-item">
+                    <span class = "services-icon">
+                        <i class = "fas fa-hotel"></i>
+                    </span>
+                    <h3>luxurious Hote</h3>
+                    <p class = "text">Roial Plaza Hotel Ar Moge Ridos***** Welcomes You </p>
+                    <a href = "#" class = "btn">Read More</a>
+                </div>
+                
+                <div class = "services-item">
+                    <span class = "services-icon">
+                        <i class = "fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide Aqane Iqane</h3>
+                    <p class="text">Professional Jima Will Guide You To Most Amazing Places In SaqaRtvelo (Chemi Gjera??) </p>
+                    <a href="#" class = "btn">Read More</a>
+                </div>
+                    
+                <div class = "services-item">
+                    <span class = "services-icon">
+                        <i class = "fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Prices No Money No Problemus</h3>
+                    <p class = "text">Gageba & Meoba</p>
+                    <a href = "#" class = "btn">Read More</a>
+                </div>
+            </div>
+        </section>     
+            
+        
+            
+        
+        <!--end of services section-->
+
+        <!--testimonials section-->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+            
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">We are just speechlees!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test.webp" alt = "testimonial">
+                            <div>
+                                <h3>Our Ge-gar Brothers</h3>
+                                <p class = "text">trip to Kaheti</p>
+                            </div>                
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">I'm so happy to fight against russian law in Tbilisi</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-4.jpg" alt = "testimonial">
+                            <div>
+                                <h3>We need new election in SaqaRtvelo!</h3>
+                                <p class = "text">trip to Mtskheta</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">After Sapheravi I love Cha-Cha!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Jack loved Elar-Ge so much!</h3>
+                                <p class = "text">trip to Qvevri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>            
+            
+        <!--end of testimonials section-->
+
+
+        <!--video section-->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!--end of video section-->>    
+                  
+         <!--footer-->   
+         <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Visit<span> Rtvelo</span>
+                    
+
+                    </a>
+                    <p class = "text" blaaaaa>
+
+                    </p>
+
+                </div>
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                    
+                </div>
+                <div class = "footer-item">
+                    <h2>Popular Places</h2>
+                    <ul>
+                        <li><a href = "#">Tbilisi</a></li>
+                        <li><a href = "#">Batumi</a></li>
+                        <li><a href = "#">Svaneti</a></li>
+                        <li><a href = "#">Racha</a></li>
+                        <li><a href = "#">Isev Svaneti</a></li>
+                    </ul>
+
+                </div>
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+
+            </div>
+
+         </footer>
+
+        <!--js-->       
+        <script src = "js/script.js"></script>
+        <script>
+            //play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').
+            addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            })
+        </script>
+    </body>
+</html>
