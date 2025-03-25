@@ -1,0 +1,33 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore dependency directories
+vendor/
+bower_components/
+
+# Ignore environment variable files
+.env
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore thumbnail cache files
+._*
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore specific video file
+videos/video-section.mp4
