@@ -20,7 +20,6 @@ This project is designed to showcase clean web design, user-friendly interface, 
 
 ## Screenshots
 
-> _Add screenshots (e.g. `screenshots/home.png`, `screenshots/destinations.png`, etc.) for visual appeal and to impress visitors/employers!_
 
 - **Home Page:**  
   ![Home](screenshots/home.png)
@@ -96,5 +95,6 @@ See the [LICENSE](./LICENSE) file for details.
 For questions, feedback, or collaboration, feel free to [open an issue](https://github.com/bakurkvaratskhelia/travel_agency_website/issues) or contact me directly.
 
 **LinkedIn:** [bakur-kvaratskhelia-5784603a](https://www.linkedin.com/in/bakur-kvaratskhelia-5784603a)
+
 
 
