@@ -20,13 +20,23 @@ This project is designed to showcase clean web design, user-friendly interface, 
 
 ## Screenshots
 
-
 - **Home Page:**  
   ![Home](screenshots/home.png)
+
 - **Destinations:**  
   ![Destinations](screenshots/destinations.png)
 
----
+- **Booking:**  
+  ![Booking](screenshots/booking.png)
+
+- **Mobile View:**  
+  ![Mobile View](screenshots/mobile.png)
+
+- **Gallery:**  
+  ![Gallery](screenshots/gallery.png)
+
+- **Contact:**  
+  ![Contact](screenshots/contact.png)
 ## Live demo
 https://bakurkvaratskhelia.github.io/travel_agency_website/index.html
 
@@ -99,6 +109,7 @@ See the [LICENSE](./LICENSE) file for details.
 For questions, feedback, or collaboration, feel free to [open an issue](https://github.com/bakurkvaratskhelia/travel_agency_website/issues) or contact me directly.
 
 **LinkedIn:** [bakur-kvaratskhelia-5784603a](https://www.linkedin.com/in/bakur-kvaratskhelia-5784603a)
+
 
 
 
