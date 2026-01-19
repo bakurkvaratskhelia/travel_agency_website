@@ -27,6 +27,10 @@ This project is designed to showcase clean web design, user-friendly interface, 
   ![Destinations](screenshots/destinations.png)
 
 ---
+## Live demo
+https://bakurkvaratskhelia.github.io/travel_agency_website/index.html
+
+---
 
 ## Tech Stack
 
@@ -95,6 +99,7 @@ See the [LICENSE](./LICENSE) file for details.
 For questions, feedback, or collaboration, feel free to [open an issue](https://github.com/bakurkvaratskhelia/travel_agency_website/issues) or contact me directly.
 
 **LinkedIn:** [bakur-kvaratskhelia-5784603a](https://www.linkedin.com/in/bakur-kvaratskhelia-5784603a)
+
 
 
 
